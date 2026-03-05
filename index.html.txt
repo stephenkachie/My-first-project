@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="index.html">Marvelous Ifunanya</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Hello, I'm Marvelous Ifunanya</h2>
+            <p>A passionate web developer creating modern and responsive websites.</p>
+            <a href="portfolio.html" class="btn">View My Work</a>
+        </section>
+
+        <section class="intro">
+            <h3>Welcome to my personal website</h3>
+            <p>Here you can learn more about me, see my projects, and get in touch.</p>
+            <div class="icons">
+                <i class="fas fa-code"></i>
+                <i class="fas fa-mobile-alt"></i>
+                <i class="fas fa-paint-brush"></i>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Marvelous Ifunanya. All rights reserved.</p>
+        <div class="social">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
